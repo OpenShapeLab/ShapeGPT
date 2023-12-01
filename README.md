@@ -23,6 +23,10 @@
 
 
 
+https://github.com/OpenShapeLab/ShapeGPT/assets/91652696/6c3f028d-ff10-4005-9d57-f8c124f324d5
+
+
+
 ## 🏃 Intro ShapeGPT
 
 ShapeGPT is a **unified** and **user-friendly** motion-language model to learn the semantic coupling of two modalities and generate high-quality motions and text descriptions on **multiple motion tasks**.
