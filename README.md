@@ -95,4 +95,4 @@ Thanks to [T5 model](https://github.com/google-research/text-to-text-transfer-tr
 
 This code is distributed under an [MIT LICENSE](LICENSE).
 
-Note that our code depends on other libraries, including [PyTorch3D](https://pytorch3d.org/), and uses datasets which each have their own respective licenses that must also be followed.
+Note that our code depends on other libraries, including [PyTorch3D](https://pytorch3d.org/) and [PyTorch Lightning](https://lightning.ai/), and uses datasets which each have their own respective licenses that must also be followed.
