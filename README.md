@@ -30,7 +30,7 @@ https://github.com/OpenShapeLab/ShapeGPT/assets/91652696/47cb697b-4778-4046-9e8e
 
 
 
-## <img src="./assets/images/logo_shapegpt.png" width="35px"> Intro ShapeGPT
+## <img src="./assets/images/logo_shapegpt.png" width=24px"> Intro ShapeGPT
 
 ShapeGPT is a **unified** and **user-friendly** motion-language model to learn the semantic coupling of two modalities and generate high-quality motions and text descriptions on **multiple motion tasks**.
 
