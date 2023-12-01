@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-    <h2> <a href="https://shapegpt.github.io/">ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</a></h2>
+    <h3> <a href="https://shapegpt.github.io/">ShapeGPT: 3D Shape Generation with A Unified Multi-modal Language Model</a></h3>
 
 <p align="center">
   <a href="https://shapegpt.github.io/">Project Page</a> •
