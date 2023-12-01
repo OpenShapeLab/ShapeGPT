@@ -89,7 +89,7 @@ If you find our code or paper helps, please consider citing:
 
 ## Acknowledgments
 
-Thanks to [T5 model](https://github.com/google-research/text-to-text-transfer-transformer), [Motion-GPT](https://github.com/OpenMotionLab/MotionGPT), [Perceiver-IO](https://github.com/krasserm/perceiver-io) and [SDFusion](https://yccyenchicheng.github.io/SDFusion/), our code is partially borrowing from them. Our approach is inspired by [Michelangelo](https://neuralcarver.github.io/michelangelo/), [ShapeCrafter](https://ivl.cs.brown.edu/research/shapecrafter.html), [Pix2Vox](https://github.com/hzxie/Pix2Vox), and [3DShape2VecSet](https://github.com/1zb/3DShape2VecSet).
+Thanks to [T5 model](https://github.com/google-research/text-to-text-transfer-transformer), [Motion-GPT](https://github.com/OpenMotionLab/MotionGPT), [Perceiver-IO](https://github.com/krasserm/perceiver-io) and [SDFusion](https://yccyenchicheng.github.io/SDFusion/), our code is partially borrowing from them. Our approach is inspired by [Unified-IO](https://unified-io.allenai.org/), [Michelangelo](https://neuralcarver.github.io/michelangelo/), [ShapeCrafter](https://ivl.cs.brown.edu/research/shapecrafter.html), [Pix2Vox](https://github.com/hzxie/Pix2Vox), and [3DShape2VecSet](https://github.com/1zb/3DShape2VecSet).
 
 ## License
 
