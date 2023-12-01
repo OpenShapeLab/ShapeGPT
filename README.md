@@ -20,6 +20,9 @@
 </div>
 <!-- <img src="https://cdn.discordapp.com/attachments/941582479117127680/1111543600879259749/20230526075532.png" width="350px"> -->
 
+
+
+
 ## 🏃 Intro ShapeGPT
 
 ShapeGPT is a **unified** and **user-friendly** motion-language model to learn the semantic coupling of two modalities and generate high-quality motions and text descriptions on **multiple motion tasks**.
@@ -27,7 +30,7 @@ ShapeGPT is a **unified** and **user-friendly** motion-language model to learn t
 <details>
     <summary><b>Technical details</b></summary>
 
-Though the advancement of pre-trained large language models unfolds, the exploration of building a unified model for language and other multi-modal data, such as motion, remains challenging and untouched so far. Fortunately, human motion displays a semantic coupling akin to human language, often perceived as a form of body language. By fusing language data with large-scale motion models, motion-language pre-training that can enhance the performance of motion-related tasks becomes feasible. Driven by this insight, we propose MotionGPT, a unified, versatile, and user-friendly motion-language model to handle multiple motion-relevant tasks. Specifically, we employ the discrete vector quantization for human motion and transfer 3D motion into motion tokens, similar to the generation process of word tokens. Building upon this “motion vocabulary”, we perform language modeling on both motion and text in a unified manner, treating human motion as a specific language. Moreover, inspired by prompt learning, we pre-train MotionGPT with a mixture of motion-language data and fine-tune it on prompt-based question-and-answer tasks. Extensive experiments demonstrate that MotionGPT achieves state-of-the-art performances on multiple motion tasks including text-driven motion generation, motion captioning, motion prediction, and motion in-between.
+The advent of large language models, enabling flexibility through instruction-driven approaches, has revolutionized many traditional generative tasks, but large models for 3D data, particularly in comprehensively handling 3D shapes with other modalities, are still under-explored. By achieving instruction-based shape generations, versatile multimodal generative shape models can significantly benefit various fields like 3D virtual construction and network-aided design. In this work, we present ShapeGPT, a shape-included multi-modal framework to leverage strong pre-trained language models to address multiple shape-relevant tasks. Specifically, ShapeGPT employs a word-sentence-paragraph framework to discretize continuous shapes into shape words, further assembles these words for shape sentences, as well as integrates shape with instructional text for multi-modal paragraphs. To learn this shape-language model, we use a three-stage training scheme, including shape representation, multimodal alignment, and instruction-based generation, to align shape-language codebooks and learn the intricate correlations among these modalities. Extensive experiments demonstrate that ShapeGPT achieves comparable performance across shape-relevant tasks, including text-to-shape, shape-to-text, shape completion, and shape editing.
 
 <img width="1194" alt="pipeline" src="./assets/images/pipeline.png">
 </details>
@@ -79,10 +82,10 @@ If you find our code or paper helps, please consider citing:
 
 ## Acknowledgments
 
-Thanks to [Motion-GPT](https://github.com/OpenMotionLab/MotionGPT), our code is partially borrowing from them.
+Thanks to [Motion-GPT](https://github.com/OpenMotionLab/MotionGPT) and [SDFusion](https://yccyenchicheng.github.io/SDFusion/), our code is partially borrowing from them.
 
 ## License
 
 This code is distributed under an [MIT LICENSE](LICENSE).
 
-Note that our code depends on other libraries, including SMPL, SMPL-X, PyTorch3D, and uses datasets which each have their own respective licenses that must also be followed.
+Note that our code depends on other libraries, including [PyTorch3D](https://pytorch3d.org/), and uses datasets which each have their own respective licenses that must also be followed.
