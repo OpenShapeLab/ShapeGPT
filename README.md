@@ -23,7 +23,10 @@
 
 
 
-https://github.com/OpenShapeLab/ShapeGPT/assets/91652696/6c3f028d-ff10-4005-9d57-f8c124f324d5
+
+https://github.com/OpenShapeLab/ShapeGPT/assets/91652696/47cb697b-4778-4046-9e8e-0eafa54d0270
+
+
 
 
 
